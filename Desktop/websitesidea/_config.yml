@@ -1,0 +1,22 @@
+title: Template Website
+email: your-email@example.com
+description: >-
+  A collection of downloadable templates for various purposes.
+baseurl: ""
+url: ""
+twitter_username: username
+github_username: username
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude directories and files
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/
